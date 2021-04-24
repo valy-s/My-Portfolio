@@ -2,56 +2,65 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Frontend Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Valeriu Web Developer Portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Valeriu',
+  subtitle: 'I am a self taught front end developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I am Valeriu, a self-taught front end developer from Romania.',
+  paragraphTwo: 'I started learning web developement over a year ago following tutorials online.',
+  paragraphThree: 'I am comfortable with HTML, CSS, JAVASCRIPT and REACT framework. ',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'countriesAPI2.png',
+    title: 'World Countries API',
+    info: ' This website was built with HTML, CSS,JAVASCRIPT and REACT (REACT-router)',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://worldcountries-api.netlify.app/',
+    repo: 'https://github.com/valy-s/Countries-API', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'crowdfunding.png',
+    title: 'Crowdfunding Project',
+    info: 'This website was built with HTML, CSS,JAVASCRIPT.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://crowdfunding-product.netlify.app/',
+    repo: 'https://github.com/valy-s/Crowdfunding-project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'blogger.png',
+    title: 'Blogr Landing Page',
+    info: 'This website was built with HTML, CSS,JAVASCRIPT.',
     info2: '',
+    url: 'https://bloggrs.netlify.app/',
+    repo: 'https://github.com/valy-s/blogr-landing-page', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'portfolio.png',
+    title: 'My portofolio',
+    info: 'This website was built with GATSBY template.',
+    info2: 'This is this website you are browsing right now.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +68,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'valeriu.stanculescu@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +76,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/valeriu-stanculescu-21b038123/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/valy-s',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

@@ -12,15 +12,17 @@ export const heroData = {
   title: '',
   name: 'Valeriu',
   subtitle: 'I am a self taught front end developer',
-  cta: '',
+  cta: 'More about me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: 'I am Valeriu, a self-taught front end developer from Romania.',
-  paragraphTwo: 'I started learning web developement over a year ago following tutorials online.',
-  paragraphThree: 'I am comfortable with HTML, CSS, JAVASCRIPT and REACT framework. ',
+  paragraphTwo:
+    'I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills and am fully aware of the latest frontend development tools  .',
+  paragraphThree:
+    'I am comfortable with HTML, CSS, JAVASCRIPT, SASS, BOOTSTRAP, and REACT framework. ',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -30,8 +32,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'countriesAPI2.png',
     title: 'World Countries API',
-    info: ' This website was built with HTML, CSS,JAVASCRIPT and REACT (REACT-router)',
-    info2: '',
+    info:
+      'This  is a web app which pulls country data from REST Countries API  and displays it in a visually appealing way for the user, according to the design specifications.',
+    info2: 'Technologies used to build this app: HTML, CSS,JAVASCRIPT and REACT (REACT-router). ',
     url: 'https://worldcountries-api.netlify.app/',
     repo: 'https://github.com/valy-s/Countries-API', // if no repo, the button will not show up
   },
@@ -39,19 +42,21 @@ export const projectsData = [
     id: nanoid(),
     img: 'crowdfunding.png',
     title: 'Crowdfunding Project',
-    info: 'This website was built with HTML, CSS,JAVASCRIPT.',
-    info2: '',
+    info:
+      'Crowdfunding project, the users should be able to: see hover states for interactive elements, make a selection of which pledge to make, see an updated progress bar and total money raised based on their pledge total after confirming a pledge, see the number of total backers increment by one after confirming a pledge.',
+    info2: 'Technologies used to build this app: HTML, CSS,JAVASCRIPT.',
     url: 'https://crowdfunding-product.netlify.app/',
     repo: 'https://github.com/valy-s/Crowdfunding-project', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'blogger.png',
-    title: 'Blogr Landing Page',
-    info: 'This website was built with HTML, CSS,JAVASCRIPT.',
-    info2: '',
-    url: 'https://bloggrs.netlify.app/',
-    repo: 'https://github.com/valy-s/blogr-landing-page', // if no repo, the button will not show up
+    img: 'joblistings.png',
+    title: 'Job listings with filtering',
+    info:
+      'Application that displays a list of available jobs and can be filtered depending on the categories.',
+    info2: 'This website was built with HTML, CSS,JAVASCRIPT.',
+    url: 'https://static-job-listings.netlify.app/',
+    repo: 'https://github.com/valy-s/Static-Job-Listing', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
